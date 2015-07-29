@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Psyco</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rules_title">Запомни главные правила:</string>
+    <string name="rules_button">Я запомнил</string>
+    <string name="rule1">1. Обиженный человек сам наносит обиды другим.</string>
+    <string name="rule2">2. Мы переходим на более высокий уровень, когда начинаем обращаться с другими лучше, чем они обращаются с нами.</string>
+    <string name="rule3">3. Когда мы помогаем другим, мы помогаем самим себе.</string>
+</resources>
