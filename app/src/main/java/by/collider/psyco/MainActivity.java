@@ -8,6 +8,7 @@ import com.unnamed.b.atv.model.TreeNode;
 import com.unnamed.b.atv.view.AndroidTreeView;
 
 public class MainActivity extends Activity {
+    RelativeLayout treeContainer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,8 @@ public class MainActivity extends Activity {
                 treeNode.getParent();
             }
         });
-        ((RelativeLayout) findViewById(R.id.tree_container)).addView(tView.getView());
+        treeContainer = (RelativeLayout) findViewById(R.id.tree_container);
+        treeContainer.addView(tView.getView());
+        tView.expandLevel(1);
     }
 }

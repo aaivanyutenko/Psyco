@@ -8,4 +8,8 @@
     <string name="rule1">1. Обиженный человек сам наносит обиды другим.</string>
     <string name="rule2">2. Мы переходим на более высокий уровень, когда начинаем обращаться с другими лучше, чем они обращаются с нами.</string>
     <string name="rule3">3. Когда мы помогаем другим, мы помогаем самим себе.</string>
+
+    <color name="primary">#8BC34A</color>
+    <color name="primary_dark">#689F38</color>
+    <color name="accent">#FF5722</color>
 </resources>
